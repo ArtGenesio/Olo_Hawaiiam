@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #3D3D3D;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif, Arial;
+}
+
+main {
+    /*background-color: tomato;*/
+    
+}
+
+.main_container_below_header {
+   position: relative;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+:root {
+    --main_container_below_header_height: 600px;
+}
+
+.main_container {
+    position: relative;
+    display: flex;
+     justify-content: space-between;
+     width: auto;
+     height: calc(var(--main_container_below_header_height) + 100px);
+ }
+
+.bold_text {
+    /*margin-top: 12%;*/
+    font-weight:700;
+    font-size: 60px;
+    line-height: 16px;
+    letter-spacing: 0.3rem;
+    color: white;
+    min-width: 650px;
+    
+}
+
+.normal_text {
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.cta_button {
+    margin-left: 100px;
+    margin-top: 14px;
+    background-color: #F28504;
+    border: none;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+
+.cta_button:hover {
+    background-color:#b46300;
+}
+
+.cta_button:active {
+    box-shadow: 0px 0px 10px 2px lightslategray;
+}
+
+.main_img_on_background {
+    object-fit: contain;
+    /*margin-top: -100px;
+    /*height: calc(var(--main_container_height) - 100px);*/
+    height: 700px;
+    /*float: right;*/
+    /*z-index: -1;*/
+}
+
+.location_div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: #F28504;
+    color:white;
+    top: 50px;
+    bottom: 50px;
+    right: 15%;
+    border: 0;
+    border-radius: 25px;
+}
+
+.location_div > .bold {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.location_div > p , a{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: inherit;
+    color: white;
+}

@@ -1,0 +1,68 @@
+#order_input_div {
+   display: flex;
+   flex-direction: column;
+   margin-left: 100px;
+}
+
+input[type=text],
+textarea[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif, Arial;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 30px;
+  }
+
+textarea[type=text] {
+    padding-top: 15px;
+}
+
+#phone,
+#name,
+#mail,
+#adress {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#phone {
+    width: 400px;
+}
+
+#name {
+    width: 500px;
+}
+
+#mail {
+    width: 500px;
+}
+
+#adress {
+    width: 600px;
+}
+
+#order {
+    width: 660px;
+    height: 120px;
+}
+
+textarea {
+    resize: none;
+}
+
+form input, form textarea {
+    font-family: 'Josefin Sans', sans-serif, Arial;
+    border: 0;
+    padding: 20px;
+    outline: none;
+}
+
+#order_input_buttons {
+    margin-top: 20px;
+    display: flex;
+   flex-direction: row;
+   justify-content: start;
+}
+
